@@ -1,0 +1,25 @@
+table, th, td {
+    border:1px solid black;
+}
+
+th,td {
+    padding:10px;
+}
+
+table {
+    background-color: gray;
+}
+
+th {
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;;
+}
+
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
+tr:nth-child(odd) {
+    background-color: greenyellow;
+}

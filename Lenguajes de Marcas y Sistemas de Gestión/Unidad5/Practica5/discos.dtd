@@ -1,0 +1,8 @@
+<!ELEMENT tienda (disco+)>
+<!ELEMENT disco (nombre_disco,grupo,año,discografia,formato)>
+<!ELEMENT nombre_disco (#PCDATA)>
+<!ELEMENT grupo (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT discografia (#PCDATA)>
+<!ELEMENT formato (#PCDATA)>
+

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<datos>
+  <usuario>
+    <nombre>Germán</nombre>
+    <apellidos>Hidalgo Luque</apellidos>
+    <edad>28</edad>
+  </usuario>
+   <usuario>
+    <nombre>Aurelio</nombre>
+    <apellidos>García Pérez</apellidos>
+    <edad>70</edad>
+  </usuario>
+</datos>

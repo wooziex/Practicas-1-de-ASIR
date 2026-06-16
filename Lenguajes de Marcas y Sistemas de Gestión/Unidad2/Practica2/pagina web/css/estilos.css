@@ -1,0 +1,386 @@
+/* cabecera */
+
+
+#cabecera {
+    border:2px solid rgba(0, 0, 0, 0.45);
+    text-align: center;
+    background-color:rgba(158, 210, 255, 0.751);
+    padding: 1%;
+    font-size:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+}
+
+
+
+/* menu*/
+
+
+#menu {
+    border:2px solid rgba(0, 0, 0, 0.45);;
+    background-color:rgba(255, 115, 0, 0.193);
+    display:flex;
+    justify-content: center;
+    height: 50px;
+   
+}
+
+
+
+/* botones_menu */
+
+
+#contenedor_boton1,#contenedor_boton2,#contenedor_botonv2 {
+    border:1px solid rgba(0, 0, 0, 0.45);
+    background-color: rgb(255, 126, 20);
+    width:10%;
+    height: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contenedor_boton3{
+    border:1px solid rgba(0, 0, 0, 0.45);
+    background-color: rgb(191, 0, 255);
+    width:10%;
+    height: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor_boton2{
+    position:relative;
+}
+
+#lista_desplegable{
+   display: none;
+
+}
+
+.prueba li{
+    border:1px solid black;
+}
+
+#contenedor_desplegable{
+    background-color: rgb(190, 255, 155);
+    border: 1px solid black;
+    width: 300px;
+    position:absolute;
+    bottom:-90px;
+    right:-267px;
+  
+}
+
+#contenedor_desplegable a{
+    text-decoration: none;
+    color:blue
+}
+
+#contenedor_desplegable li{
+    border:1px solid black;
+ 
+}
+
+#contenedor_boton2 li:hover #lista_desplegable{
+    display:block;
+}
+
+#contenedor_boton2 li{
+    border:0px solid black;
+    padding-bottom: 15px;
+}
+
+#contenedor_boton2 ul{
+    text-decoration: none;
+    border:0px solid black;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    list-style-type: none;
+    position:absolute;
+    bottom: -18px;
+    right: 61px;
+}
+
+
+#contenedor_boton1 a {
+    text-decoration: none;
+    border:0px solid black;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+
+
+#contenedor_botonv2 a {
+    text-decoration: none;
+    border:0px solid black;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+
+
+#contenedor_boton3 h1{
+    border:0px solid black;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 15px;
+}
+
+#contenedor_boton3 a{
+    text-decoration: none;
+}
+
+
+#contenedor_boton1:hover {
+      background-color: rgba(255, 115, 0, 0.611);
+      
+}
+
+#contenedor_boton2:hover {
+      background-color: rgba(255, 115, 0, 0.611);
+}
+
+#contenedor_botonv2:hover {
+      background-color: rgba(255, 115, 0, 0.611);
+}
+
+#contenedor_boton3:hover {
+      background-color: rgba(191, 0, 255, 0.684);
+}
+
+
+
+/* pie de pagina */
+
+
+#pie_pagina {
+    border:2px solid rgba(0, 0, 0, 0.45);
+    background-color:rgba(174, 217, 255, 0.751);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.769);
+
+}
+
+#pie_pagina h5 {
+    border:0px solid black;
+    margin:10px;
+  
+}
+
+
+
+/* main */
+
+
+main {
+    display: flex;
+}
+
+.main3 {
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.122);
+}
+
+#main2 {
+    border:1px solid rgba(0, 0, 0, 0.122);
+    overflow: hidden;
+}
+
+
+/* contenido_pagina */
+
+
+#contenido {
+    border:1px solid rgba(0, 0, 0, 0.122);
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+
+   
+    
+}
+
+
+
+#contenido h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+   
+}
+
+
+
+#contenido p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  
+}
+
+
+
+
+#contenido img {
+   width: 50%;
+   height: 50%;
+  
+
+}
+
+
+
+
+#contenido img:hover {
+    transform:scale(1.2);
+}
+
+
+
+
+
+/* contenido_pagina_animacion*/
+
+
+#contenido_animacion h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#contenido_animacion p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+
+#contenido_animacion{
+    border:1px solid rgba(0, 0, 0, 0.122);
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+#contenido_animacion img{
+    width: 50%;
+   height: 50%;
+}
+
+
+
+#contenedor_boton3 h1{
+    color:white;
+}
+
+@keyframes animation1{
+    from {transform: rotate(0deg);border:1px solid rgba(0, 0, 0, 0);}
+    to {transform: rotate(-360deg);border:1px solid rgba(0, 0, 0, 0.122);}
+}
+
+
+
+
+
+/* componente */
+
+
+#no_texto_componente {
+    border:0px solid black;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+    
+}
+
+#no_texto_componente img {
+    width: 400px;
+    height: 300px;
+   
+}
+
+#no_texto_componente h1 {
+    text-decoration: underline;
+    font-size: 35px;
+   
+}
+
+#no_texto_componente p {
+    font-size: 30px;
+}
+
+
+#texto_componente {
+    border:0px solid black;
+    text-align: left;
+    font-size: 25px;
+    padding: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#contenido_total_componente {
+    border:1px solid rgba(0, 0, 0, 0.122);
+}
+
+.contenedor_titulo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.titulo{
+    text-align: center;
+    border: 0px solid black;
+    width: 250px;
+  
+}
+
+.titulo h1{
+    box-shadow: 0px 0px 5px;
+ 
+    background-color: aqua;
+}
+
+
+
+/* imagen_mapa */
+
+
+#imagen_mapa {
+    border:0px solid black;
+
+}
+
+#imagen_mapa img {
+    height: 400px;
+    width: 397px;
+}
+
+
+#imagen_mapa  {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
